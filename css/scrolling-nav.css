@@ -17,33 +17,6 @@ body, html {
   margin-top: 0;
   background-size: cover;
 }
-.about{
-        background-repeat: no-repeat;
-        width: 100%;
-        height: 800px;
-        opacity: 0.5;
-        padding: 230px 300px;
-        margin-bottom:4em;
-
-}
-.projects{
-        background-repeat: no-repeat;
-        width: 100%;
-        height: 500px;
-        opacity: 0.5;
-        padding: 230px 300px;
-        margin-bottom:4em;
-
-}
-
-.skills{
-        background-repeat: no-repeat;
-        width: 100%;
-        height: 800px;
-        opacity: 0.5;
-        padding: 230px 300px;
-        margin-bottom:4em;
-}
 .head2{
     margin-top:230px;
 }
@@ -81,6 +54,7 @@ section.resume-section{
 
 .list-inline-item {
   display: run-in;
+  margin-bottom: 2em;
 }
 
 .list-inline-item:not(:last-child) {
@@ -91,11 +65,22 @@ section.resume-section{
   list-style: none;
 }
 p.lead3 {
-  font-size: 18px;
+  font-size: 16px;
   margin-left: auto;
   margin-right: auto;
   width: 10em;
 }
 li i{
-    display: run-in;
+    display: inline-block;
 }
+
+h2.head4 {
+    margin-top: 1.3em;
+}
+
+iframe {
+    display: block;
+    border-style:none;
+}
+
+
