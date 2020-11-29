@@ -22,7 +22,17 @@
   // Activate scrollspy to add active class to navbar items on scroll
   $('body').scrollspy({
     target: '#mainNav',
-    offset: 400;
+    offset: 300;
+  });
+
+  var jumboHeight = $('.jumbotron').outerHeight();
+  function parallax(){
+      var scrolled = $(window).scrollTop();
+      $('.bg').css('height', (jumboHeight-scrolled) + 'px');
+  }
+
+  $(window).scroll(function(e){
+      parallax();
   });
 
 })(jQuery); // End of use strict
