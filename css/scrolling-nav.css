@@ -21,9 +21,6 @@ body, html {
   margin-top: 0;
   background-size: cover;
 }
-.head2{
-    margin-top:360px;
-}
 .hr-light {
   border-top: 3px solid #fff;
   width: 80px;
@@ -37,7 +34,7 @@ body, html {
 }
 .list-inline-item {
   display: run-in;
-  margin-bottom: 2em;
+  margin-bottom: 0.5em;
 }
 
 .list-inline-item:not(:last-child) {
@@ -53,19 +50,34 @@ p.lead3 {
   margin-right: auto;
   width: 10em;
 }
+p.lead2 {
+    font-family: "Work Sans — Regular";
+    font-size: 24px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
 li i{
     display: inline-block;
 }
 
 h2.head4 {
     margin-top: 1.3em;
+    font-family: "Work Sans — Regular";
+    font-size: 25px;
 }
-
-/*iframe {
-    display: block;
-    border-style:none;
-    max-width: 100%;
-}*/
+h2.head2 {
+    font-family: "Work Sans — Regular";
+    font-size: 35px;
+}
+h2.head3 {
+    margin-top: 2em;
+    font-family: "Work Sans — Regular";
+    font-size: 35px;
+}
+.head2 {
+    margin-top:340px;
+}
 .game iframe {
     position: center;
     width: 100%;
@@ -77,3 +89,55 @@ h2.head4 {
      width: 900px;
      margin: 0 auto;
 }
+h1 {
+    font-family: "Work Sans — Regular";
+    font-size: 50px;
+}
+
+p.lead {
+  font-family: "Work Sans — Regular";
+  font-size: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30em;
+}
+a.btn btn-dark  btn-xl js-scroll-trigger {
+    display: inline-block;
+    text-align: center;
+    font-size: 25px;
+}
+
+p.ld3 {
+    font-family: "Work Sans — Extra-light 200";
+    font-size: 25px;
+    margin-left: auto;
+    margin-right: auto;
+}
+p.lead3{
+    font-family: "Work Sans — Extra-light 200";
+    font-size: 20px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+h2.head4 {
+    margin-top: 2em;
+    font-family: "Work Sans — Regular";
+    font-size: 35px;
+}
+.courses{
+        font-family: "Work Sans — Regular";
+        font-size: 25px;
+}
+.courses {
+	display: table;   /* Allow the centering to work */
+	margin: 0 auto;
+}
+span i {
+    text-align: center;
+}
+.course-list li{
+    display: inline-block;
+}
+
+
