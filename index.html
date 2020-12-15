@@ -25,9 +25,9 @@
 
 </head>
 
-<body id="page-top">
+<body class="bg-dark" id="page-top">
   <!-- Navigation -->
-  <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top" id="mainNav">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="mainNav">
     <div class="container">
       <a class="navbar-brand js-scroll-trigger" href="#page-top"></a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
@@ -35,28 +35,27 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav ml-auto">
-          <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">About</a></li>
-          <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#projects">Projects</a></li>
-          <li class="nav-item"><a class="nav-link js-scroll-trigger" href="resume.html" target="_blank">Resume</a></li>
-          <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#skills">Skills</a></li>
-          <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#contact">Contact</a></li>
+          <li class="nav-item"><a class="nav-link js-scroll-trigger text-white" href="#about">About</a></li>
+          <li class="nav-item"><a class="nav-link js-scroll-trigger text-white" href="#projects">Projects</a></li>
+          <li class="nav-item"><a class="nav-link js-scroll-trigger text-white" href="resume.html" target="_blank">Resume</a></li>
+          <li class="nav-item"><a class="nav-link js-scroll-trigger text-white" href="#skills">Skills</a></li>
+          <li class="nav-item"><a class="nav-link js-scroll-trigger text-white" href="#contact">Contact</a></li>
         </ul>
       </div>
     </div>
   </nav>
 
-  <header class = "masthead bg-success text-white text-center">
+  <header class = "masthead bg-dark text-white text-center">
     <div class="container d-flex align-items-center flex-column">
       <h1>Stephen Lambert</h1>
       <br/>
-      <p class="lead">UIC Graduate, Software Engineer, Virtual coding instructor at Codeverse</p>
+      <p class="lead"> Software Engineer, Virtual coding instructor at Codeverse</p>
       <br/>
-      <a class="btn btn-dark  btn-xl js-scroll-trigger"  class="text-light bg-dark" href="#about">About Me</a>
+      <a class="btn btn-light btn-xl js-scroll-trigger"  href="#about">About Me</a>
     </div>
   </header>
 
-  <hr class="divider light my-4" />
-  <section id="about">
+  <section class="bg-light" id="about">
     <div class="container">
       <div class="row">
         <div class="container text-center">
@@ -69,35 +68,34 @@
             UIC has provided me with experience using Arduino, Android Studio, Unity, Spring, Git, Jyupter Notebook, Pygame and Junit.
             What I enjoy most about Computer Science is the variety of resources available to learn different languages, I am able to teach myself new concepts, and the prevalence of computer science in a variety of fields.
           </p>
-          <br/>
-          <hr class="divider light my-4" />
         </div>
       </div>
     </div>
   </section>
 
-  <section id="projects">
+  <section class="bg-dark" id="projects">
     <div class="container">
       <div class="row">
         <div class="container text-center">
-          <h2 class="head3">Recent Work</h2>
+          <h1 class="head3 text-white">Recent Work</h1>
           <br/>
           <br/>
-          <p class="ld3">Selective Detective</p>
-          <img class="img-fluid" src="assets/img/scene.jpeg" width="300" height="300" alt="" />
+          <p class="ld3 text-white">Selective Detective</p>
+          <br/>
+          <img class="img-fluid" src="assets/img/scene.jpeg" width="350" height="350" alt="" />
           <br/>
           <br/>
-          <p style="text-align:center;" class="lead3"> A multiplayer detective game built with Unity and C#. One player detects which character is stealing the hearts, while the other plays as a theif.</p>
-          <a class="btn btn-dark btn-xl js-scroll-trigger" href="game.html">Launch</a>
+          <p class="lead3 text-white"> A multiplayer detective game built with Unity and C#. One player detects which character is stealing the hearts, while the other plays as a theif.</p>
           <br/>
-          <hr class="divider light my-4" />
+          <a class="btn btn-light btn-xl js-scroll-trigger" href="game.html">Launch</a>
+          <br/>
         </div>
       </div>
     </div>
   </section>
 
   <!--Skills-->
-  <section id="skills">
+  <section class="skl bg-light" id="skills">
     <div class="list-container">
       <div class="row">
         <div class="container text-center">
@@ -120,6 +118,7 @@
             <li class="list-inline-item"><img src="https://img.icons8.com/ios-filled/50/000000/javascript-logo.png" width="40" height="40"/></li>
           </ul>
           <div class="courses">Relevant Coursework</div>
+          <br/>
           <ul class="fa-ul mb-0" id="course-list">
             <li class="fas fa-check">
               <span class="fa-li"><i  title="Align Center"></i></span>
@@ -163,19 +162,16 @@
             <br>
           </ul>
           <br>
-          <hr class="divider light my-4" />
         </div>
       </div>
     </div>
   </section>
 
   <!-- Main Content -->
-  <div id="contact"class="container">
-    <div class="row">
+  <section id="contact"class="contact">
+    <div class="container">
+      <p style="text-align:center" class="lead4 text-white">Fill out the form below to send me a message and I will get back to you!</p>
       <div class="container text-center col-lg-8 col-md-10 mx-auto">
-
-        <h2 class="head5">Get in Touch</h2>
-        <p class="lead4">Fill out the form below to send me a message and I will get back to you!</p>
         <!-- Contact Form - Enter your email address on line 19 of the mail/contact_me.php file to make this form work. -->
         <!-- WARNING: Some web hosts do not allow emails to be sent through forms to common mail hosts like Gmail or Yahoo. It's recommended that you use a private domain email address! -->
         <form action="https://formspree.io/f/xknpvbyz" method="POST" autocomplete="off">
@@ -207,17 +203,19 @@
                 <p class="help-block text-danger"></p>
             </div>
           </div>
-          <button type="submit" class="btn btn-dark btn-xl js-scroll-trigger">Send</button>
-          <hr/>
+          <button type="submit" class="btn btn-light btn-xl js-scroll-trigger">Send</button>
         </form>
 
       </div>
     </div>
-  </div>
+  </section>
 
   <!-- Footer -->
-  <footer class="py-5 bg-dark">
+  <footer class="py-5 bg-dark text-center">
     <!-- /.container -->
+    <div class="container">
+      <p class="text-white medium mb-0">Copyright &copy; 2020</p>
+    </div>
   </footer>
 
   <!-- Bootstrap core JavaScript -->
