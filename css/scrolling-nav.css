@@ -2,7 +2,7 @@ header {
   padding: 200px 200px 250px;
 }
 section.bg-light{
-    padding: 150px 200px 200px;
+    padding: 250px 200px 200px;
 }
 section.skl{
     padding: 75px 200px 150px;
@@ -21,8 +21,8 @@ body, html {
 }
 .masthead-avatar {
   position: relative;
-  width: 200px;
-  height: 200px;
+  width: 250px;
+  height: 250px;
   border-radius: 50%;
 }
 .masthead-avatar img {
@@ -91,11 +91,6 @@ h1.head3 {
     height: 100%;
     border: 0;
 }
-
-#resume {
-     width: 900px;
-     margin: 0 auto;
-}
 h1 {
     font-family: "Work Sans — Regular";
     font-size: 30px;
@@ -140,7 +135,7 @@ p.lead4{
 
 }
 section.contact{
-    padding: 75px;
+    padding: 100px;
 }
 .courses{
     font-family: "Work Sans — Extra-light 200";
