@@ -181,7 +181,95 @@ li.nav-item {
 */
 
 @media (min-width: 481px) and (max-width: 767px) {
-    img.masthead { max-height: 90%; }
+
+    body, html {
+      height: 100%;
+    }
+    h1 {
+        font-family: "Work Sans — Regular";
+        font-size: 18px;
+    }
+    p.lead {
+      font-family: "Work Sans — Regular";
+      font-size: 16px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    a.btn {
+        font-family: "Work Sans — Regular";
+        display: inline-block;
+        text-align: center;
+        font-size: 16px;
+    }
+    .masthead-avatar {
+      position: relative;
+      width: 200px;
+      height: 200px;
+      border-radius: 50%;
+    }
+    .masthead-avatar img {
+      width: 100%;
+      height: 100%;
+    }
+    p.lead2 {
+        font-family: "Work Sans — Extra-light 200";
+        font-size: 16px;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+    h1.head3 {
+        font-family: "Work Sans — Regular";
+        font-size: 18px;
+    }
+    p.ld3 {
+        font-family: "Work Sans — Extra-light 200";
+        font-size: 16px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .image-fluid img {
+        width:100%;
+    }
+    p.lead3{
+        font-family: "Work Sans — Extra-light 200";
+        font-size: 16px;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+    .list-inline-item {
+      display: run-in;
+      margin-bottom: 0.5em;
+    }
+
+    .list-inline-item:not(:last-child) {
+      margin-right: 0.5rem;
+    }
+    .list-inline {
+      padding-left: 0;
+      list-style: none;
+    }
+    li i{
+        display: inline-block;
+    }
+    .courses{
+        font-family: "Work Sans — Extra-light 200";
+        font-size: 30px;
+        text-align: center;
+    }
+    .fas fa-check {
+        font-size: 45px;
+    }
+    li.nav-item {
+        font-family: "Work Sans — Regular";
+        font-size: 20px;
+    }
+    p.lead4{
+        font-family: "Work Sans — Extra-light 200";
+        font-size: 16px;
+
+    }
 
 }
 
@@ -191,7 +279,95 @@ li.nav-item {
 */
 
 @media (min-width: 320px) and (max-width: 480px) {
-    img.masthead { max-height: 90%; }
+    body, html {
+      height: 100%;
+    }
+
+    h1 {
+        font-family: "Work Sans — Regular";
+        font-size: 18px;
+    }
+    p.lead {
+      font-family: "Work Sans — Regular";
+      font-size: 16px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    a.btn {
+        font-family: "Work Sans — Regular";
+        display: inline-block;
+        text-align: center;
+        font-size: 16px;
+    }
+    .masthead-avatar {
+      position: relative;
+      width: 200px;
+      height: 200px;
+      border-radius: 50%;
+    }
+    .masthead-avatar img {
+      width: 100%;
+      height: 100%;
+    }
+    p.lead2 {
+        font-family: "Work Sans — Extra-light 200";
+        font-size: 16px;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+    h1.head3 {
+        font-family: "Work Sans — Regular";
+        font-size: 18px;
+    }
+    p.ld3 {
+        font-family: "Work Sans — Extra-light 200";
+        font-size: 16px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .image-fluid img {
+            width:100%;
+    }
+    p.lead3{
+        font-family: "Work Sans — Extra-light 200";
+        font-size: 16px;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+    .list-inline-item {
+      display: run-in;
+      margin-bottom: 0.5em;
+    }
+
+    .list-inline-item:not(:last-child) {
+      margin-right: 0.5rem;
+    }
+    .list-inline {
+      padding-left: 0;
+      list-style: none;
+    }
+    li i{
+        display: inline-block;
+    }
+    .courses{
+        font-family: "Work Sans — Extra-light 200";
+        font-size: 16px;
+        text-align: center;
+    }
+    .fas fa-check {
+        font-size: 20px;
+    }
+    li.nav-item {
+        font-family: "Work Sans — Regular";
+        font-size: 16px;
+    }
+    p.lead4{
+        font-family: "Work Sans — Extra-light 200";
+        font-size: 16px;
+
+    }
 }
 
 
