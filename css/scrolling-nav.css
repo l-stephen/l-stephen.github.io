@@ -182,16 +182,16 @@ li.nav-item {
 
 @media (min-width: 481px) and (max-width: 767px) {
     header {
-      padding: 200px 200px 250px;
+      padding: 100px 100px 150px;
     }
     section.bg-light{
-        padding: 250px 200px 200px;
+        padding: 150px 100px 100px;
     }
     section.skl{
-        padding: 75px 200px 250px;
+        padding: 75px 100px 150px;
     }
     section.bg-dark{
-        padding: 50px 200px 250px;
+        padding: 50px 100px 150px;
     }
 
     body, html {
@@ -303,16 +303,16 @@ li.nav-item {
 @media (min-width: 320px) and (max-width: 480px) {
 
   header {
-        padding: 200px 200px 250px;
+        padding: 100px 100px 150px;
       }
       section.bg-light{
-          padding: 250px 200px 200px;
+          padding: 150px 100px 100px;
       }
       section.skl{
-          padding: 75px 200px 250px;
+          padding: 75px 100px 150px;
       }
       section.bg-dark{
-          padding: 50px 200px 250px;
+          padding: 50px 100px 150px;
       }
 
       body, html {
