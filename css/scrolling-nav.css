@@ -181,7 +181,7 @@ li.nav-item {
 */
 
 @media (min-width: 481px) and (max-width: 767px) {
-
+    img.masthead { max-height: 90%; }
 
 }
 
@@ -191,8 +191,7 @@ li.nav-item {
 */
 
 @media (min-width: 320px) and (max-width: 480px) {
-
-
+    img.masthead { max-height: 90%; }
 }
 
 
