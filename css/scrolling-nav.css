@@ -215,6 +215,18 @@ li.nav-item {
       width: 100%;
       height: auto;
     }
+    header {
+      padding: 200px 200px 250px;
+    }
+    section.bg-light{
+        padding: 250px 200px 200px;
+    }
+    section.skl{
+        padding: 75px 200px 150px;
+    }
+    section.bg-dark{
+        padding: 50px 200px 150px;
+    }
     h1.head3 {
         font-family: "Work Sans — Regular";
         font-size: 15px;
@@ -265,7 +277,18 @@ li.nav-item {
 */
 
 @media (min-width: 320px) and (max-width: 480px) {
-
+      header {
+        padding: 200px 200px 250px;
+      }
+      section.bg-light{
+          padding: 250px 200px 200px;
+      }
+      section.skl{
+          padding: 75px 200px 150px;
+      }
+      section.bg-dark{
+          padding: 50px 200px 150px;
+      }
       body, html {
         height: 75%;
       }
