@@ -205,7 +205,16 @@ li.nav-item {
         margin-left: auto;
         margin-right: auto;
     }
-
+    .masthead-avatar {
+      position: relative;
+      width: 250px;
+      height: 250px;
+      border-radius: 50%;
+    }
+    .masthead-avatar img {
+      width: 100%;
+      height: auto;
+    }
     h1.head3 {
         font-family: "Work Sans — Regular";
         font-size: 15px;
@@ -265,7 +274,16 @@ li.nav-item {
           font-family: "Work Sans — Regular";
           font-size: 15px;
       }
-
+      .masthead-avatar {
+        position: relative;
+        width: 250px;
+        height: 250px;
+        border-radius: 50%;
+      }
+      .masthead-avatar img {
+        width: 100%;
+        height: auto;
+      }
       p.lead {
         font-family: "Work Sans — Regular";
         font-size: 12px;
