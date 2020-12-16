@@ -197,15 +197,17 @@ li.nav-item {
     body, html {
       height: 100%;
     }
-    h1 {
-        font-family: "Work Sans — Regular";
-        font-size: 16px;
-    }
+
+      h1 {
+          font-family: "Work Sans — Regular";
+          font-size: 20px;
+      }
+
     p.lead {
-      font-family: "Work Sans — Regular";
-      font-size: 13px;
-      margin-left: auto;
-      margin-right: auto;
+        font-family: "Work Sans — Regular";
+        font-size: 18px;
+        margin-left: auto;
+        margin-right: auto;
     }
     a.btn {
         font-family: "Work Sans — Regular";
@@ -315,18 +317,14 @@ li.nav-item {
 
       h1 {
           font-family: "Work Sans — Regular";
-          font-size: 15px;
+          font-size: 20px;
       }
 
-      p.lead {
-        font-family: "Work Sans — Regular";
-        font-size: 16px;
-    }
     p.lead {
-      font-family: "Work Sans — Regular";
-      font-size: 13px;
-      margin-left: auto;
-      margin-right: auto;
+        font-family: "Work Sans — Regular";
+        font-size: 18px;
+        margin-left: auto;
+        margin-right: auto;
     }
     a.btn {
         font-family: "Work Sans — Regular";
