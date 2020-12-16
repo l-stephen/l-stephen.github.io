@@ -78,7 +78,6 @@ h2.head2 {
     font-size: 25px;
 }
 h1.head3 {
-    margin-top: 2em;
     font-family: "Work Sans — Regular";
     font-size: 30px;
 }
@@ -150,33 +149,178 @@ li.nav-item {
     font-size: 20px;
 }
 
-/* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {...}
+/*
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
 
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {
-    .masthead {
-           height: 100vh;
-         }
-         h1 {
-           font-size: 5.5rem;
-         }
+@media (min-width: 768px) and (max-width: 1024px) {
+
+  /* CSS */
+
 }
 
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {...}
+/*
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
 
-/* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {
-    .masthead {
-       height: 100vh;
-     }
-     h1 {
-       font-size: 5.5rem;
-     }
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+
+  /* CSS */
+
 }
 
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {...}
+/*
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+    h1 {
+        font-family: "Work Sans — Regular";
+        font-size: 15px;
+    }
+
+    p.lead {
+      font-family: "Work Sans — Regular";
+      font-size: 12px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    a.btn {
+        font-family: "Work Sans — Regular";
+        display: inline-block;
+        text-align: center;
+        font-size: 12px;
+    }
+
+    p.lead2 {
+        font-family: "Work Sans — Extra-light 200";
+        font-size: 12px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    h1.head3 {
+        font-family: "Work Sans — Regular";
+        font-size: 15px;
+    }
+
+    p.ld3 {
+        font-family: "Work Sans — Extra-light 200";
+        font-size: 13px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    p.lead3{
+        font-family: "Work Sans — Extra-light 200";
+        font-size: 12px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    img.image-fluid{
+        width: 100;
+        height: 100;
+    }
+    .courses{
+        font-family: "Work Sans — Extra-light 200";
+        font-size: 12px;
+        text-align: center;
+    }
+    .fas fa-check {
+        font-size: 25px;
+    }
+    li.nav-item {
+        font-family: "Work Sans — Regular";
+        font-size: 12px;
+    }
+
+    p.lead4{
+        font-family: "Work Sans — Extra-light 200";
+        font-size: 15px;
+    }
+
+
+
+}
+
+/*
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+
+      h1 {
+          font-family: "Work Sans — Regular";
+          font-size: 15px;
+      }
+
+      p.lead {
+        font-family: "Work Sans — Regular";
+        font-size: 12px;
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+      a.btn {
+          font-family: "Work Sans — Regular";
+          display: inline-block;
+          text-align: center;
+          font-size: 12px;
+      }
+
+      p.lead2 {
+          font-family: "Work Sans — Extra-light 200";
+          font-size: 12px;
+          margin-left: auto;
+          margin-right: auto;
+      }
+
+      h1.head3 {
+          font-family: "Work Sans — Regular";
+          font-size: 15px;
+      }
+
+      p.ld3 {
+          font-family: "Work Sans — Extra-light 200";
+          font-size: 13px;
+          margin-left: auto;
+          margin-right: auto;
+      }
+      p.lead3{
+          font-family: "Work Sans — Extra-light 200";
+          font-size: 12px;
+          margin-left: auto;
+          margin-right: auto;
+      }
+
+      img.image-fluid{
+          width: 100;
+          height: 100;
+      }
+      .courses{
+          font-family: "Work Sans — Extra-light 200";
+          font-size: 12px;
+          text-align: center;
+      }
+      .fas fa-check {
+          font-size: 25px;
+      }
+      li.nav-item {
+          font-family: "Work Sans — Regular";
+          font-size: 12px;
+      }
+
+      p.lead4{
+          font-family: "Work Sans — Extra-light 200";
+          font-size: 15px;
+      }
+
+}
+
 
 
