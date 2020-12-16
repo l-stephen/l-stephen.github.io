@@ -228,6 +228,8 @@ li.nav-item {
     p.lead2 {
         font-family: "Work Sans — Extra-light 200";
         font-size: 16px;
+        margin-left: auto;
+        margin-right: auto;
         text-align: center;
         width: 20em;
 
@@ -249,6 +251,8 @@ li.nav-item {
     p.lead3{
         font-family: "Work Sans — Extra-light 200";
         font-size: 16px;
+        margin-left: auto;
+        margin-right: auto;
         text-align: center;
 
     }
@@ -286,7 +290,8 @@ li.nav-item {
     p.lead4{
         font-family: "Work Sans — Extra-light 200";
         font-size: 18px;
-
+        margin-left: auto;
+        margin-right: auto;
     }
 
 }
@@ -346,6 +351,8 @@ li.nav-item {
           font-family: "Work Sans — Extra-light 200";
           font-size: 16px;
           width: 20em;
+          margin-left: auto;
+          margin-right: auto;
       }
 
       h1.head3 {
@@ -366,7 +373,7 @@ li.nav-item {
           font-size: 16px;
           margin-left: auto;
           margin-right: auto;
-          align: center;
+          text-align: center;
 
       }
       h1.head4 {
