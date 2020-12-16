@@ -229,6 +229,7 @@ li.nav-item {
         font-family: "Work Sans — Extra-light 200";
         font-size: 16px;
         text-align: center;
+        width: 10em;
 
     }
 
@@ -344,10 +345,7 @@ li.nav-item {
       p.lead2 {
           font-family: "Work Sans — Extra-light 200";
           font-size: 16px;
-          margin-left: auto;
-          margin-right: auto;
-          height: auto;
-          align: center;
+          width: 10em;
       }
 
       h1.head3 {
