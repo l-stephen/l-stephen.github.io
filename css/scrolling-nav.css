@@ -213,6 +213,7 @@ li.nav-item {
         text-align: center;
         font-size: 16px;
     }
+<<<<<<< HEAD
     .masthead-avatar {
       position: relative;
       width: 200px;
@@ -234,6 +235,9 @@ li.nav-item {
       height: auto;
 >>>>>>> parent of b0f67ae... updating css
     }
+=======
+
+>>>>>>> parent of 33a9989... updating css
     h1.head3 {
         font-family: "Work Sans — Regular";
         font-size: 18px;
@@ -324,16 +328,7 @@ li.nav-item {
           font-family: "Work Sans — Regular";
           font-size: 15px;
       }
-      .masthead-avatar {
-        position: relative;
-        width: 250px;
-        height: 250px;
-        border-radius: 50%;
-      }
-      .masthead-avatar img {
-        width: 100%;
-        height: auto;
-      }
+
       p.lead {
 >>>>>>> parent of b0f67ae... updating css
         font-family: "Work Sans — Regular";
