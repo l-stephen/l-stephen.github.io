@@ -177,6 +177,9 @@ li.nav-item {
 */
 
 @media (min-width: 481px) and (max-width: 767px) {
+    body, html {
+      height: 75%;
+    }
     h1 {
         font-family: "Work Sans — Regular";
         font-size: 15px;
@@ -253,6 +256,10 @@ li.nav-item {
 */
 
 @media (min-width: 320px) and (max-width: 480px) {
+
+      body, html {
+        height: 75%;
+      }
 
       h1 {
           font-family: "Work Sans — Regular";
