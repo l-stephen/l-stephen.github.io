@@ -200,7 +200,7 @@ li.nav-item {
 
       h1 {
           font-family: "Work Sans — Regular";
-          font-size: 16px;
+          font-size: 18px;
       }
 
     p.lead {
@@ -227,13 +227,11 @@ li.nav-item {
     }
     p.lead2 {
         font-family: "Work Sans — Extra-light 200";
-        font-size: 14px;
+        font-size: 16px;
         margin-left: auto;
         margin-right: auto;
-
-
-      height: auto;
-
+        height: auto;
+        align: center;
     }
 
     h1.head3 {
@@ -254,7 +252,12 @@ li.nav-item {
         font-size: 16px;
         margin-left: auto;
         margin-right: auto;
+        align: center;
 
+    }
+    h1.head4 {
+        font-family: "Work Sans — Regular";
+        font-size: 18px;
     }
     .list-inline-item {
       display: run-in;
@@ -271,21 +274,21 @@ li.nav-item {
     li i{
         display: inline-block;
     }
-    .courses{
-        font-family: "Work Sans — Extra-light 200";
-        font-size: 30px;
+    h1.courses{
+        font-family: "Work Sans — Regular";
+        font-size: 18px;
         text-align: center;
     }
     .fas fa-check {
-        font-size: 45px;
+        font-size: 18px;
     }
     li.nav-item {
         font-family: "Work Sans — Regular";
-        font-size: 20px;
+        font-size: 18px;
     }
     p.lead4{
         font-family: "Work Sans — Extra-light 200";
-        font-size: 16px;
+        font-size: 18px;
 
     }
 
@@ -298,109 +301,117 @@ li.nav-item {
 
 @media (min-width: 320px) and (max-width: 480px) {
 
-    header {
-      padding: 100px 100px 150px;
-    }
-    section.bg-light{
-        padding: 150px 100px 100px;
-    }
-    section.skl{
-        padding: 75px 100px 150px;
-    }
-    section.bg-dark{
-        padding: 50px 100px 150px;
-    }
-
-    body, html {
-      height: 100%;
-    }
-
-      h1 {
-          font-family: "Work Sans — Regular";
-          font-size: 20px;
+  header {
+        padding: 100px 100px 150px;
+      }
+      section.bg-light{
+          padding: 150px 100px 100px;
+      }
+      section.skl{
+          padding: 75px 100px 150px;
+      }
+      section.bg-dark{
+          padding: 50px 100px 150px;
       }
 
-    p.lead {
-        font-family: "Work Sans — Regular";
-        font-size: 18px;
-        margin-left: auto;
-        margin-right: auto;
-    }
-    a.btn {
-        font-family: "Work Sans — Regular";
-        display: inline-block;
-        text-align: center;
-        font-size: 16px;
-    }
-    .masthead-avatar {
-      position: relative;
-      width: 200px;
-      height: 200px;
-      border-radius: 50%;
-    }
-    .masthead-avatar img {
-      width: 100%;
-      height: 100%;
-    }
-    p.lead2 {
-        font-family: "Work Sans — Extra-light 200";
-        font-size: 14px;
-        margin-left: auto;
-        margin-right: auto;
+      body, html {
+        height: 100%;
+      }
 
-    }
-    h1.head3 {
-        font-family: "Work Sans — Regular";
-        font-size: 18px;
-    }
-    p.ld3 {
-        font-family: "Work Sans — Extra-light 200";
-        font-size: 16px;
-        margin-left: auto;
-        margin-right: auto;
-    }
-    .image-fluid img {
-            width:100%;
-    }
-    p.lead3{
-        font-family: "Work Sans — Extra-light 200";
-        font-size: 16px;
-        margin-left: auto;
-        margin-right: auto;
+        h1 {
+            font-family: "Work Sans — Regular";
+            font-size: 18px;
+        }
 
-    }
-    .list-inline-item {
-      display: run-in;
-      margin-bottom: 0.5em;
-    }
+      p.lead {
+          font-family: "Work Sans — Regular";
+          font-size: 16px;
+          margin-left: auto;
+          margin-right: auto;
+      }
+      a.btn {
+          font-family: "Work Sans — Regular";
+          display: inline-block;
+          text-align: center;
+          font-size: 14px;
+      }
+      .masthead-avatar {
+        position: relative;
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+      }
+      .masthead-avatar img {
+        width: 100%;
+        height: 100%;
+      }
+      p.lead2 {
+          font-family: "Work Sans — Extra-light 200";
+          font-size: 16px;
+          margin-left: auto;
+          margin-right: auto;
+          height: auto;
+          align: center;
+      }
 
-    .list-inline-item:not(:last-child) {
-      margin-right: 0.5rem;
-    }
-    .list-inline {
-      padding-left: 0;
-      list-style: none;
-    }
-    li i{
-        display: inline-block;
-    }
-    .courses{
-        font-family: "Work Sans — Extra-light 200";
-        font-size: 16px;
-        text-align: center;
-    }
-    .fas fa-check {
-        font-size: 20px;
-    }
-    li.nav-item {
-        font-family: "Work Sans — Regular";
-        font-size: 16px;
-    }
-    p.lead4{
-        font-family: "Work Sans — Extra-light 200";
-        font-size: 16px;
+      h1.head3 {
+          font-family: "Work Sans — Regular";
+          font-size: 18px;
+      }
+      p.ld3 {
+          font-family: "Work Sans — Extra-light 200";
+          font-size: 16px;
+          margin-left: auto;
+          margin-right: auto;
+      }
+      .image-fluid img {
+          width:100%;
+      }
+      p.lead3{
+          font-family: "Work Sans — Extra-light 200";
+          font-size: 16px;
+          margin-left: auto;
+          margin-right: auto;
+          align: center;
 
-    }
+      }
+      h1.head4 {
+          font-family: "Work Sans — Regular";
+          font-size: 18px;
+      }
+      .list-inline-item {
+        display: run-in;
+        margin-bottom: 0.5em;
+      }
+
+      .list-inline-item:not(:last-child) {
+        margin-right: 0.5rem;
+      }
+      .list-inline {
+        padding-left: 0;
+        list-style: none;
+      }
+      li i{
+          display: inline-block;
+      }
+      h1.courses{
+          font-family: "Work Sans — Regular";
+          font-size: 18px;
+          text-align: center;
+      }
+      .fas fa-check {
+          font-size: 18px;
+      }
+      li.nav-item {
+          font-family: "Work Sans — Regular";
+          font-size: 18px;
+      }
+      p.lead4{
+          font-family: "Work Sans — Extra-light 200";
+          font-size: 18px;
+
+      }
+
 }
 
 
