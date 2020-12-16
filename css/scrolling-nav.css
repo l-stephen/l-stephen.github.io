@@ -200,12 +200,12 @@ li.nav-item {
 
       h1 {
           font-family: "Work Sans — Regular";
-          font-size: 20px;
+          font-size: 16px;
       }
 
     p.lead {
         font-family: "Work Sans — Regular";
-        font-size: 18px;
+        font-size: 16px;
         margin-left: auto;
         margin-right: auto;
     }
@@ -213,7 +213,7 @@ li.nav-item {
         font-family: "Work Sans — Regular";
         display: inline-block;
         text-align: center;
-        font-size: 16px;
+        font-size: 14px;
     }
     .masthead-avatar {
       position: relative;
